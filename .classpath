@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java/build/generated/source/proto/main/java"/>
+	<classpathentry kind="src" path="java/src/test/java"/>
+	<classpathentry kind="lib" path="docker/extensions/wiremock-grpc-extension-standalone-0.4.0.jar"/>
+	<classpathentry kind="lib" path="java/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/908291/.m2/repository/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar" sourcepath="C:/Users/908291/.m2/repository/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="io.grpc"/>
+			<attribute name="maven.artifactId" value="grpc-api"/>
+			<attribute name="maven.version" value="1.56.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/908291/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar" sourcepath="C:/Users/908291/.m2/repository/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.grpc"/>
+			<attribute name="maven.artifactId" value="grpc-api"/>
+			<attribute name="maven.version" value="1.64.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/908291/.m2/repository/io/grpc/grpc-stub/1.56.1/grpc-stub-1.56.1.jar" sourcepath="C:/Users/908291/.m2/repository/io/grpc/grpc-stub/1.56.1/grpc-stub-1.56.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="io.grpc"/>
+			<attribute name="maven.artifactId" value="grpc-stub"/>
+			<attribute name="maven.version" value="1.56.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/908291/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0.jar" sourcepath="C:/Users/908291/.m2/repository/io/grpc/grpc-stub/1.64.0/grpc-stub-1.64.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.grpc"/>
+			<attribute name="maven.artifactId" value="grpc-stub"/>
+			<attribute name="maven.version" value="1.64.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/908291/.m2/repository/io/grpc/grpc-protobuf/1.56.1/grpc-protobuf-1.56.1.jar" sourcepath="C:/Users/908291/.m2/repository/io/grpc/grpc-protobuf/1.56.1/grpc-protobuf-1.56.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="io.grpc"/>
+			<attribute name="maven.artifactId" value="grpc-protobuf"/>
+			<attribute name="maven.version" value="1.56.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/908291/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0.jar" sourcepath="C:/Users/908291/.m2/repository/io/grpc/grpc-protobuf/1.64.0/grpc-protobuf-1.64.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.grpc"/>
+			<attribute name="maven.artifactId" value="grpc-protobuf"/>
+			<attribute name="maven.version" value="1.64.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/908291/.m2/repository/org/wiremock/wiremock/3.0.3/wiremock-3.0.3.jar" sourcepath="C:/Users/908291/.m2/repository/org/wiremock/wiremock/3.0.3/wiremock-3.0.3-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.wiremock"/>
+			<attribute name="maven.artifactId" value="wiremock"/>
+			<attribute name="maven.version" value="3.0.3"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="java/build/classes/java/main"/>
+</classpath>

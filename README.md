@@ -50,3 +50,4 @@ grpcurl -d '{"name": "Tom" }' -plaintext \
   -proto ExampleServices.proto \
   localhost:8080 com.example.grpc.GreetingService/greeting
 ```
+

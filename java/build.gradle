@@ -41,8 +41,9 @@ dependencies {
   implementation "io.grpc:grpc-stub:$versions.grpc"
 
   implementation 'javax.annotation:javax.annotation-api:1.3.2'
+    implementation 'org.testng:testng:7.1.0'
 
-  testImplementation "org.wiremock:wiremock:$versions.wiremock"
+    testImplementation "org.wiremock:wiremock:$versions.wiremock"
   testImplementation "org.wiremock:wiremock-grpc-extension:$versions.wiremockGrpc"
   testImplementation(platform('org.junit:junit-bom:5.10.0'))
   testImplementation "org.junit.jupiter:junit-jupiter"
@@ -50,11 +51,14 @@ dependencies {
   testImplementation "org.hamcrest:hamcrest-library:2.2"
   testImplementation 'org.awaitility:awaitility:4.2.0'
   testImplementation "io.grpc:grpc-okhttp:$versions.grpc"
+  // https://mvnrepository.com/artifact/com.google.protobuf/protoc
+  implementation group: 'com.google.protobuf', name: 'protoc', version: '4.27.1', ext: 'pom'
+
 }
 
 protobuf {
   protoc {
-    artifact = "com.google.protobuf:protoc:3.24.3"
+    artifact = "com.google.protobuf:protoc:4.27.1"
   }
 
   plugins {
